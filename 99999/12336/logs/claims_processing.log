@@ -1,0 +1,202 @@
+INFO:utils.utilsfile:Data loaded successfully
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cancer
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cancer
+INFO:utils.utilsfile:Mean and standard deviation calculated for Diabetes
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Diabetes
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Kidney Disease
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Kidney Disease
+INFO:utils.utilsfile:Mean and standard deviation calculated for Neurological Disorders
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Neurological Disorders
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cardiovascular Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cardiovascular Diseases
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Respiratory Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Respiratory Diseases
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:utils.utilsfile:Data loaded successfully
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cancer
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cancer
+INFO:utils.utilsfile:Mean and standard deviation calculated for Diabetes
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Diabetes
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Kidney Disease
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Kidney Disease
+INFO:utils.utilsfile:Mean and standard deviation calculated for Neurological Disorders
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Neurological Disorders
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cardiovascular Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cardiovascular Diseases
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Respiratory Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Respiratory Diseases
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:utils.utilsfile:Data loaded successfully
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cancer
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cancer
+INFO:py4j.clientserver:Error while receiving.
+Traceback (most recent call last):
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=480>
+INFO:py4j.clientserver:Closing down clientserver connection
+ERROR:root:Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+RuntimeError: reentrant call inside <_io.BufferedReader name=480>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+INFO:py4j.clientserver:Error while receiving.
+Traceback (most recent call last):
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\pyspark\context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\pyspark\context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o13.sc
+INFO:py4j.clientserver:Closing down clientserver connection
+ERROR:root:Exception while sending command.
+Traceback (most recent call last):
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\pyspark\context.py", line 381, in signal_handler
+    self.cancelAllJobs()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\pyspark\context.py", line 2446, in cancelAllJobs
+    self._jsc.sc().cancelAllJobs()
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling o13.sc
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\py4j\clientserver.py", line 539, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending or receiving
+INFO:py4j.clientserver:Closing down clientserver connection
+ERROR:utils.utilsfile:Error processing disease Cancer: An error occurred while calling o96.showString
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:utils.utilsfile:Data loaded successfully
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cancer
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cancer
+INFO:utils.utilsfile:Mean and standard deviation calculated for Diabetes
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Diabetes
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Kidney Disease
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Kidney Disease
+INFO:utils.utilsfile:Mean and standard deviation calculated for Neurological Disorders
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Neurological Disorders
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cardiovascular Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cardiovascular Diseases
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Respiratory Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Respiratory Diseases
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:utils.utilsfile:Data loaded successfully
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cancer
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cancer
+INFO:utils.utilsfile:Mean and standard deviation calculated for Diabetes
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Diabetes
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Kidney Disease
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Kidney Disease
+INFO:utils.utilsfile:Mean and standard deviation calculated for Neurological Disorders
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Neurological Disorders
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cardiovascular Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cardiovascular Diseases
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Respiratory Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Respiratory Diseases
+INFO:py4j.clientserver:Closing down clientserver connection
+INFO:utils.utilsfile:Data loaded successfully
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cancer
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cancer
+INFO:utils.utilsfile:Mean and standard deviation calculated for Diabetes
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Diabetes
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Kidney Disease
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Kidney Disease
+INFO:utils.utilsfile:Mean and standard deviation calculated for Neurological Disorders
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Neurological Disorders
+INFO:utils.utilsfile:Mean and standard deviation calculated for Cardiovascular Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Cardiovascular Diseases
+INFO:utils.utilsfile:Mean and standard deviation calculated for Chronic Respiratory Diseases
+INFO:utils.utilsfile:Outliers identified
+INFO:utils.utilsfile:Frequent and fraudulent claims identified
+INFO:utils.utilsfile:Processing completed for disease: Chronic Respiratory Diseases
+INFO:py4j.clientserver:Closing down clientserver connection

@@ -59,11 +59,17 @@ claim_stats = df20.agg(
 mean_claim = claim_stats[0]["mean_claim"]
 stddev_claim = claim_stats[0]["stddev_claim"]
 
+print("Mean claim is :-",mean_claim)
+print("stddev claim is :-",stddev_claim)
+
 # Apply 2-sigma and 3-sigma rules to identify outliers
 threshold_high_2sigma = mean_claim + 2 * stddev_claim
 threshold_low_2sigma = mean_claim - 2 * stddev_claim
 threshold_high_3sigma = mean_claim + 3 * stddev_claim
 threshold_low_3sigma = mean_claim - 3 * stddev_claim
+
+print("threshold_high_2sigmas :-",threshold_high_2sigma)
+print("threshold_high_3sigma :-",threshold_high_3sigma)
 
 # Filter outliers
 outliers_2sigma = df20.filter((col("claim_amount_settled") > threshold_high_2sigma) | (col("claim_amount_settled") < threshold_low_2sigma))
